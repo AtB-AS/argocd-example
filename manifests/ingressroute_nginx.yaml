@@ -7,7 +7,7 @@ spec:
     - web
   routes:
     - kind: Rule
-      match: Host(`staging.mittatb.no`) && PathPrefix(`/nginx`)
+      match: PathPrefix(`/nginx`)
       priority: 10
       services:
         - name: nginx
