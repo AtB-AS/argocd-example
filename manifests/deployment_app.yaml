@@ -12,6 +12,7 @@ spec:
     metadata:
       labels:
         app: nginx
+        team: backend
     spec:
       containers:
         - name: nginx
